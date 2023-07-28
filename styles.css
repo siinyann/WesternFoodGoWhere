@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Moda%20Bodoni);
+
+/* Globals */
+body {
+  font-family: 'Roboto';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: 'Bodoni Moda'
+}
+
+/* Classes */
+.masthead {
+  background: #d5d7db;
+  padding-left: 24px;
+  font-size: 14px;
+}
+
+.header {
+  background-color: #D2042D;
+  padding: 24px;
+  text-align: center;
+  color: white;
+}
+
+.main {
+  padding: 24px;
+  background-color: #f6f6f6;
+  flex-grow: 1;
+}
+
+.card {
+  width: 300px;
+  
+}
+
+.footer {
+  background-color: #d5d7db;
+  padding-left: 24px;
+  font-size: 14px;
+}
